@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+
+}
+header, footer{
+    width: 80px;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.486);
+    border-right: 2px solid rgba(255, 255, 255, 0.274);
+    line-height: 2em;
+    margin-bottom: 2em;
+
+}
+header{
+    position: fixed;
+    color: #c90000;
+    text-decoration: none;
+    font-family: "Russo One", sans-serif;
+}
+main{
+    line-height: 10em;
+}
+.main-links{
+
+    float: left;
+    color: #930000;
+    text-decoration: none;
+    font-family: "Russo One", sans-serif;
+    margin-top: 15px;
+
+}
+.main-links:hover{
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+}
+#IconHome{
+
+    margin-left: 3px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+#Icon{
+
+    width: 60px;
+    height: 60px;
+
+    margin-left: 10px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+#Player{
+
+    margin-left: 1250px;
+    margin-top: 265px;
+
+}
+
+.bg-video {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -100;
+  
+  }
