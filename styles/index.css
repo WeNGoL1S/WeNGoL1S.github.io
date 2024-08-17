@@ -7,8 +7,6 @@
 }
 body {
 
-    background-image: url("./background.jpg");
-    background-repeat: no-repeat;
     /*background-position: center;*/
     background-color: black;
     background-size: cover;
@@ -70,6 +68,18 @@ main {
     background-color: rgba(0, 0, 0, 0.445);
 
 }
+
+.panel-socials{
+
+    text-align: center;
+    margin-left: 4em;
+    width: 25em;
+    height: 200px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.445);
+
+}
+
 .bg-video {
 
     position: absolute;
@@ -85,8 +95,18 @@ main {
     float: left;
 
 }
+#panel-text-socials {
+
+    text-decoration: none;
+
+    color: #868686;
+
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+
+}
 #panel-text-small {
-    
+
     margin-bottom: 2em;
     margin-left: 1em;
     text-align: left;
