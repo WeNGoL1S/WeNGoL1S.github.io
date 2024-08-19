@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Russo+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 
 * {
     margin: 0;
@@ -111,7 +112,7 @@ main {
     margin-left: 1em;
     text-align: left;
     color: #e6e6e6;
-    font-family: "Russo One", sans-serif;
+    font-family: Calibri;
     font-style: normal;
 
 }
@@ -119,7 +120,7 @@ main {
     
     margin-bottom: 1em;
     color: #e6e6e6;
-    font-family: "Russo One", sans-serif;
+    font-family: "Fjalla One", sans-serif;
     font-size: 25px;
 
 }
