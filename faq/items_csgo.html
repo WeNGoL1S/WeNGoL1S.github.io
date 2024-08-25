@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="icon" href="../csgo/icons_csgo/ct_silhouette.png" type="image/x-icon">
+        <title>FAQ моддинг CS:GO - Предметы</title>
+        <meta name="author" content="shashlik226">
+        <meta name="description" content="Проекты CS:GO">
+        <link rel="stylesheet" href="./styles/main.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="./faqmodding.html">
+	    	    <img src="../csgo/icons_csgo/ct_silhouette.png" id="Avatar"  width="64em" title="Назад">
+            </a>
+            <a class="main-links" href="https://raw.githubusercontent.com/WeNGoL1S/WeNGoL1S.github.io/main/csgo/files/items_game.txt" >Резервная копия файла</a>
+	    </header>
+
+        <div class="container">
+	        <div class="content" >
+				<h2 id="head" >Где находится файл</h2>
+				<p>csgo/scripts/items_game.txt</p>
+
+                <h2 id="head">rarities/qualities</h2>
+				<p>Пункт отвечающий за редкости в игре</p>
+
+                <h2 id="head">player_loadout_slots</h2>
+				<p>Пункт отвечающий за слоты (нельзя редактировать)</p>
+
+                <h2 id="head">alternate_icons2</h2>
+				<p>Пункт отвечающий за альтернативные иконки скинов (нельзя редактировать)</p>
+
+                <h2 id="head">prefabs</h2>
+				<p>Пункт отвечающий за заготовку аргументов для предметов, используется для более удобного создания предметов</p>
+
+                <h2 id="head">items</h2>
+				<p>Пункт отвечающий за все предметы в игре, кейсы, оружия и т.д.</p>
+                <p>аргументы:</p>
+                <p>"baseitem" - есть поставить 1 то этот предмет будет появлятся в инвентаре как дефолтный предмет</p>
+                <p>"item_sub_position" - отвечает за расположение оружия в меню закупке и отображении в HUD</p>
+                <p>"item_quality" - редкость предмета</p>
+                <p>"name" - название предмета (если оружия то для команды give)</p>
+                <p>"used_by_classes" - определяет какими сторонами будет он использоваться, его аргументы: terrorists и counter-terrorists</p>
+                <p>"item_name" - название предмета (если оружия то для команды give)</p>
+                <p>"item_description" - описание предмета</p>
+                <p>"item_gear_slot_position" - позиция (item_sub_position)</p>
+                <p>"image_inventory" - путь до картинки в инвентаре</p>
+                <p>"model_player" - модель предмета от лица игрока</p>
+                <p>"model_world" - модель предмета от третьего лица</p>
+                <p>"model_dropped" - модель предмета в выброшенном состоянии</p>
+                <p>"inventory_image_data" - используется для авто создания image_inventory</p>
+                <p>"attributes" - хз</p>
+                <p>"tags" - хз</p>
+                <p>"tool" - хз</p>
+                <p>"associated_items" - с чем предмет ассоцируется</p>
+
+                <h2 id="head">pro_players</h2>
+				<p>Пункт для турнирных предметов по типу наклеек</p>
+
+                <h2 id="head">music_definitions</h2>
+				<p>Идентификатор музыки</p>
+                <p>"name" - название музыкального набора и название папки с музыкой</p>
+                <p>"loc_name" - автор + название музыки</p>
+                <p>"loc_description" - описание</p>
+                <p>"image_inventory" - путь до картинки в инвентаре</p>
+                <p>"pedestal_display_model" - модель музыкального набора(экранчик)</p>
+
+                <h2 id="head">Бонус</h2>
+                <p>Здесь перечисленно далеко не все, тут только база</p>
+                <p>Что-бы изменить дефолтный музыкальный набор надо: </p>
+                <p style="margin-bottom: 2em;">Найти строчку "music_definitions", выбрать музыкальный набор(его номер/айди), найти строчку "musickit_default", и в "music id" вместо 1 указать выбранный айди</p>
+			</div>
+        </div>
+
+    </body>
+</html>

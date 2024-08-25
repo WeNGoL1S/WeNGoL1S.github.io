@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Russo+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+
+    /*background-position: center;*/
+    background-color: #262626;
+    background-size: cover;
+
+}
+header, footer {
+
+    width: 100%;
+    height: 4em;
+    text-align: center;
+    line-height: 2em;
+    margin-bottom: 2em;
+    z-index: 1;
+    background-color: black;
+
+}
+div {
+
+    display: block;
+    unicode-bidi: isolate;
+
+}
+header {
+    
+    color: #c90000;
+    text-decoration: none;
+    font-family: "Russo One", sans-serif;
+
+}
+main {
+
+    line-height: 10em;
+    
+}
+.main-links {
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Russo One", sans-serif;
+    margin-left: 4em;
+    margin-top: 1em;
+    float: left;
+
+}
+.main-links:hover {
+
+    color: #757575;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.content {
+
+    margin-left: 1em;
+    width: 100%;
+    height: 100%;
+    background-color: #262626
+
+}
+
+h2, p {
+
+    color: #ffffff;
+    font-family: Calibri;
+
+}
+
+#head {
+
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+#Avatar {
+
+    margin-left: 2em;
+    float: left;
+
+}
