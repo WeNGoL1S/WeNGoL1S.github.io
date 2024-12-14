@@ -2,7 +2,7 @@
 <html lang="ru">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="icon" href="../csgo/icons_csgo/ct_silhouette.png" type="image/x-icon">
+        <link rel="icon" href="../images/logo.png" type="image/x-icon">
         <title>PanoramaUI</title>
         <meta name="author" content="shashlik226">
         <meta name="description" content="Проекты CS:GO">
@@ -12,13 +12,18 @@
     <body>
         <header>
             <a href="./faqmodding.html">
-	    	    <img src="../csgo/icons_csgo/ct_silhouette.png" id="Avatar"  width="64em" title="Назад">
+	    	    <img src="../images/logo.png" id="Avatar"  width="64em" title="Назад">
             </a>
             <a class="main-links" href="https://github.com/threata/csgo-panorama-patcher/releases/tag/16.10.2023" >pbin</a>
             <a class="main-links" href="https://drive.google.com/file/d/1wWWBRsXmbOjA-Uy-TdCHGLnOrY0wSRx5/view?usp=sharing" >python311.dll</a>
             <a class="main-links" href="https://raw.githubusercontent.com/WeNGoL1S/WeNGoL1S.github.io/main/faq/panorama.cfg" >panorama.cfg</a>
 	    </header>
-
+        <header class="path">
+            <a class="path-links" style="margin-left: 4.8em;" href="../index.html" >Главная страница \</a>
+            <a class="path-links" href="./main.html" >FAQ по моддингу \</a>
+            <a class="path-links" href="./faqmodding.html" >Редактирование \</a>
+            <a class="path-links" href="./panorama.html" >Панорама</a>
+	    </header>
         <div class="container">
 	        <div class="content" >
 
@@ -31,8 +36,8 @@
                 <p>Обязательно перед всем сделайте рез. копию файла code.pbin в csgo/panorama!</p>
                 
                 <h2 id="head" >Как начать?</h2>
-				<p>1. Вверху скачиваем программу pbin, с помощью ее можно пропачить panorama.dll без трудностей</p>
-                <p>2. После скачивания pbin нам еще надо буде скачать python311.dll, ссылка также будет сверху (если боишся то тогда скачай py с оффициального сайта, версия 3.11.0)</p>
+				<p>1. Вверху скачиваем программу pbin, с помощью ее можно пропачить panorama.dll</p>
+                <p>2. После скачивания pbin нам еще надо буде скачать python311.dll, ссылка также будет сверху (версия python 3.11.0)</p>
                 <p>3. Далее перекидываем файлы в csgo/panorama, и открываем cmd</p>
                 <p>4. Пишем в cmd cd "путь до папки panorama в кавычках", (пример: сd "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\panorama" )</p>
                 <p>5. Теперь мы можем взаимодействовать с программой, далее пишем pbin patch_panorama. После этого пишем pbin unpack code.pbin</p>

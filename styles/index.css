@@ -39,6 +39,10 @@ main {
     line-height: 10em;
     
 }
+a {
+    color: white;
+
+}
 .main-links {
 
     color: rgb(255, 255, 255);
@@ -87,7 +91,8 @@ main {
     width: 100%;
     z-index: -100;
   
-  }
+}
+
 #Avatar {
 
     margin-left: 2em;
